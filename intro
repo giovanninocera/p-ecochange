@@ -23,6 +23,7 @@ waterocc=getrsp("Chimichagua", lyrs=c("occurrence"))
 # Users can define a different path using the argument path()
 waterocc
 
+
 # Let's plot the object
 plot(raster(waterocc), axes = T,
      main = 'Occurrence (Colombia)')
